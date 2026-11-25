@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Qubes Os Adventures | Bogware</title>
+<meta name="title" content="Qubes Os Adventures" />
+<meta name="description" content="I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie.
+I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS
+but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be." />
+<meta name="keywords" content="qubesos," />
+
+
+<meta property="og:url" content="http://localhost:1313/qubes-os-adventures/">
+	<meta property="og:site_name" content="Bogware">
+	<meta property="og:title" content="Qubes Os Adventures">
+	<meta property="og:description" content="I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie. I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-11-25T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-11-25T00:00:00+00:00">
+		<meta property="article:tag" content="Qubesos">
+
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Qubes Os Adventures">
+	<meta name="twitter:description" content="I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie. I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be.">
+
+
+
+
+	<meta itemprop="name" content="Qubes Os Adventures">
+	<meta itemprop="description" content="I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie. I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be.">
+	<meta itemprop="datePublished" content="2026-11-25T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-11-25T00:00:00+00:00">
+	<meta itemprop="wordCount" content="331">
+	<meta itemprop="keywords" content="Qubesos">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Bogware</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Qubes Os Adventures</h1>
+<p>
+  <i>
+    <time datetime='2026-11-25'>
+      25 Nov, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie.
+I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS
+but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be.</p>
+<p>So, I decided to give QubesOS a shot, now that in the year of RAMagaddon I have gotten a laptop with 32GB of RAM, I could probably run QubesOS comfortably. So armed with some excitement, I installed it on my laptop and started to use it daily.</p>
+<h2 id="what-i-liked">What I Liked:</h2>
+<ul>
+<li>Spinning up VMs in a blink of an eye, with specific use cases in mind.</li>
+<li>Trying to wrap my head around the various design decisions the developers made was a challenge I enjoyed.</li>
+</ul>
+<h2 id="what-i-disliked">What I Disliked:</h2>
+<ul>
+<li>Software. Template VMs (the root for the single purpose VMs) have no internet connection, outside the proxy for the package manager, I spent many hours trying to figure out how to install the Pi coding agent on it, since I wanted to create an agent template. It eventually worked, but it needed more tinkering than I wanted for a simple command line install.</li>
+<li>Performance. While not horrendous, I tried to connect to a zoom meeting from inside a disposable Qube, and constant dropped frames made the conversation barely possible (though to my suprise, passing the mic and camera to the VM was easy and simple).</li>
+</ul>
+<p>Overall, I emjoyed my time on QubesOS, but because of the edge cases where a VM was more of a headache than a help, I decided to move off it to an arch based distro, and gave up on the dream of having my operating systems in neat little boxes.</p>
+<p>I am still looking at containers and NixOS as an alternative (at least for my server).</p>
+
+</content><div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+  <p>
+    
+        <strike>
+          &lt;&lt; Previous Post</strike>
+            
+  </p>
+  <p>|</p>
+  <p>
+    
+    <strike>Next Post >></strike>
+    
+  </p>
+</div>
+
+
+<p>
+  
+  <a href="http://localhost:1313/blog/qubesos/">#Qubesos</a>
+  
+</p>
+
+  </main>
+  <footer>
+</footer>
+
+  
+</body>
+
+</html>

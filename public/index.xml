@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Home on Bogware</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on Bogware</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Qubes Os Adventures</title>
+				<link>http://localhost:1313/qubes-os-adventures/</link>
+				<pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/qubes-os-adventures/</guid>
+				<description>&lt;p&gt;I must confess, as much as I would like to say I chose QubesOS for its security features, that would be a lie.&#xA;I love putting things into boxes and this seems like the perfect opportunity to do so. I tried to do something similar to QubesOS&#xA;but with vanilla VMs, but the lack of proper integration with the broader OS made it so much more of a headache than it needed to be.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
