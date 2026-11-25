@@ -1,6 +1,6 @@
 # Main
 baseURL = "https://semabreak.github.io"
-theme = 'hugo-bearblog'
+theme = 'bearblog'
 
 # Site Metadata
 title = "Bogware"
