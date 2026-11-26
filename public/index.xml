@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Hi, my name Yuval. I like to create software for people (not to maximize some arbitrary KPI, but rather a human centered need).&lt;/p&gt;&#xA;&lt;p&gt;When I am not in front of the computer you can find me enjoyig spending time with the people I care about the most, and also trying to find peace in solitraty activities when I can (music, reading, etc.).&lt;/p&gt;&#xA;&lt;p&gt;I enjoy meeting new people, so don&amp;rsquo;t be afraid to send (note, I still havn&amp;rsquo;t set the inbox. this comment will be removed when I&amp;rsquo;ve done so) an email: yuvalbloginbox (at) pm dot me.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Now</title>
+				<link>http://localhost:1313/now/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/now/</guid>
+				<description>&lt;h1 id=&#34;now&#34;&gt;Now&lt;/h1&gt;&#xA;&lt;h2 id=&#34;i-am&#34;&gt;I am:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Looking for a new job (contact me for any opportunities).&lt;/li&gt;&#xA;&lt;li&gt;Focusing on my (physical) health.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>My AI Usage Philosophy</title>
+				<link>http://localhost:1313/my-ai-usage-philosophy/</link>
+				<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/my-ai-usage-philosophy/</guid>
+				<description>&lt;p&gt;I remember the first time I got introduced to LLMs (pre-agent explosion). It was during a short stint at a tiny social startup. My mentor / boss was seriously into AI and true believer. After many a task where I refused to use AI, I gave it a shot and was blown away.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t all knowing, but it helped me locate all the stupid simple mistakes I made in a code block. I still had to do the legwork to narrow dowm the buggy code, so it felt like a good comprimise between thinking/doing and outsourcing.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Qubes Os Adventures</title>
 				<link>http://localhost:1313/qubes-os-adventures/</link>

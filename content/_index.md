@@ -5,4 +5,4 @@ weight = 1
 +++
 
 # Welcome!
-This is my little corner of the internet.
+This is my little corner of the internet. Still under construction!

@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>My AI Usage Philosophy</title>
+				<link>http://localhost:1313/my-ai-usage-philosophy/</link>
+				<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/my-ai-usage-philosophy/</guid>
+				<description>&lt;p&gt;I remember the first time I got introduced to LLMs (pre-agent explosion). It was during a short stint at a tiny social startup. My mentor / boss was seriously into AI and true believer. After many a task where I refused to use AI, I gave it a shot and was blown away.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t all knowing, but it helped me locate all the stupid simple mistakes I made in a code block. I still had to do the legwork to narrow dowm the buggy code, so it felt like a good comprimise between thinking/doing and outsourcing.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Qubes Os Adventures</title>
 				<link>http://localhost:1313/qubes-os-adventures/</link>
